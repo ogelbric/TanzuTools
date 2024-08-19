@@ -133,6 +133,7 @@ echo
 ```
 
 
-![Version](https://github.com/ogelbric/TanzuTools/blob/main/MemoryCPUcalulations/vcenter1.png)
+![Version](https://github.com/ogelbric/TanzuTools/blob/main/MemoryCPUcalulations/limits.png)
 
+![Version](https://github.com/ogelbric/TanzuTools/blob/main/MemoryCPUcalulations/requests.png)
 

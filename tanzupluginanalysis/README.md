@@ -131,3 +131,80 @@ telemetry kubernetes v0.33.1             same version ---> telemetry kubernetes 
 ----------------------------------------------------------------------------------------
 ```
 
+The Upgrade 
+
+```
+[root@orfdns ~]# ./tanzupluginanalysis.sh --upgrade --yes
+----------------------------------------------------------------------------------------
+accelerator kubernetes v1.11.0           same version ---> accelerator kubernetes v1.11.0
+apply operations v0.1.7                  same version ---> apply operations v0.1.7
+apps kubernetes v0.13.2                  same version ---> apps kubernetes v0.13.2
+appsv2 global v0.4.1                     same version ---> appsv2 global v0.4.1
+build global v0.11.0                     same version ---> build global v0.11.0
+build-service kubernetes v1.0.0          same version ---> build-service kubernetes v1.0.0
+clustergroup operations v0.2.0           same version ---> clustergroup operations v0.2.0
+cluster operations v0.2.7                same version ---> cluster operations v0.2.7
+context mission-control v0.1.16          upgradable to --> context mission-control v0.1.20
+[i] Installed plugin 'context:v0.1.20' with target 'mission-control'
+[ok] successfully upgraded plugin 'context'
+ekscluster operations v0.1.4             same version ---> ekscluster operations v0.1.4
+external-secrets kubernetes v0.1.0       same version ---> external-secrets kubernetes v0.1.0
+iam operations v0.1.9                    same version ---> iam operations v0.1.9
+imgpkg global v0.3.5                     same version ---> imgpkg global v0.3.5
+insight kubernetes v1.10.0               same version ---> insight kubernetes v1.10.0
+isolated-cluster global v0.33.1          same version ---> isolated-cluster global v0.33.1
+management-cluster kubernetes v0.33.1    same version ---> management-cluster kubernetes v0.33.1
+management-cluster operations v0.1.4     same version ---> management-cluster operations v0.1.4
+package kubernetes v0.35.4               same version ---> package kubernetes v0.35.4
+pinniped-auth global v3.1.0              same version ---> pinniped-auth global v3.1.0
+policy operations v0.1.12                same version ---> policy operations v0.1.12
+project global v0.2.3                    same version ---> project global v0.2.3
+provider-eks-cluster operations v0.1.4   same version ---> provider-eks-cluster operations v0.1.4
+rbac global v0.1.2                       upgradable to --> rbac global v0.1.3
+[i] Installed plugin 'rbac:v0.1.3' with target 'global'
+[ok] successfully upgraded plugin 'rbac'
+resource global v0.2.3                   same version ---> resource global v0.2.3
+secret kubernetes v0.33.3                same version ---> secret kubernetes v0.33.3
+services kubernetes v0.12.1              same version ---> services kubernetes v0.12.1
+space global v0.2.2                      same version ---> space global v0.2.2
+telemetry global v1.1.0                  same version ---> telemetry global v1.1.0
+telemetry kubernetes v0.33.1             same version ---> telemetry kubernetes v0.33.1
+----------------------------------------------------------------------------------------
+```
+
+Upgraded Test
+
+```
+[root@orfdns ~]# ./tanzupluginanalysis.sh
+----------------------------------------------------------------------------------------
+accelerator kubernetes v1.11.0           same version ---> accelerator kubernetes v1.11.0
+apply operations v0.1.7                  same version ---> apply operations v0.1.7
+apps kubernetes v0.13.2                  same version ---> apps kubernetes v0.13.2
+appsv2 global v0.4.1                     same version ---> appsv2 global v0.4.1
+build global v0.11.0                     same version ---> build global v0.11.0
+build-service kubernetes v1.0.0          same version ---> build-service kubernetes v1.0.0
+clustergroup operations v0.2.0           same version ---> clustergroup operations v0.2.0
+cluster operations v0.2.7                same version ---> cluster operations v0.2.7
+context mission-control v0.1.20          same version ---> context mission-control v0.1.20
+ekscluster operations v0.1.4             same version ---> ekscluster operations v0.1.4
+external-secrets kubernetes v0.1.0       same version ---> external-secrets kubernetes v0.1.0
+iam operations v0.1.9                    same version ---> iam operations v0.1.9
+imgpkg global v0.3.5                     same version ---> imgpkg global v0.3.5
+insight kubernetes v1.10.0               same version ---> insight kubernetes v1.10.0
+isolated-cluster global v0.33.1          same version ---> isolated-cluster global v0.33.1
+management-cluster kubernetes v0.33.1    same version ---> management-cluster kubernetes v0.33.1
+management-cluster operations v0.1.4     same version ---> management-cluster operations v0.1.4
+package kubernetes v0.35.4               same version ---> package kubernetes v0.35.4
+pinniped-auth global v3.1.0              same version ---> pinniped-auth global v3.1.0
+policy operations v0.1.12                same version ---> policy operations v0.1.12
+project global v0.2.3                    same version ---> project global v0.2.3
+provider-eks-cluster operations v0.1.4   same version ---> provider-eks-cluster operations v0.1.4
+rbac global v0.1.3                       same version ---> rbac global v0.1.3
+resource global v0.2.3                   same version ---> resource global v0.2.3
+secret kubernetes v0.33.3                same version ---> secret kubernetes v0.33.3
+services kubernetes v0.12.1              same version ---> services kubernetes v0.12.1
+space global v0.2.2                      same version ---> space global v0.2.2
+telemetry global v1.1.0                  same version ---> telemetry global v1.1.0
+telemetry kubernetes v0.33.1             same version ---> telemetry kubernetes v0.33.1
+----------------------------------------------------------------------------------------
+```

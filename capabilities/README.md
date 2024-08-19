@@ -1,5 +1,12 @@
 # Cluster Group Capabilities to Space Capabilities Analyzer
 
+## space-capabilities-analyser-x.sh
+
+### Run options
+```
+./space-capabilities-analyser-x.sh -org sa-tanzu-platform -proj AMER-East -sp orfproblemspace1 -debug
+./space-capabilities-analyser-x.sh -org sa-tanzu-platform -proj AMER-East -sp orfproblemspace1
+```
 
 ```
 #source ./tanzucli.src

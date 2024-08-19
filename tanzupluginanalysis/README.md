@@ -92,7 +92,7 @@ telemetry kubernetes v0.33.1             same version ---> telemetry kubernetes 
 ----------------------------------------------------------------------------------------
 ```
 
-Upgrade test
+Upgrade Test
 
 ```
 [root@orfdns ~]# ./tanzupluginanalysis.sh --upgrade --test

@@ -3,5 +3,6 @@
 ```
 * Memory and CPU calcualtions on limits vs requests 
 * Look at Tanzu Space capabilities and Cluster group capabilities
-* Root Containers 
+* Root Containers
+* Package version analyser 
 ```

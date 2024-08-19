@@ -97,3 +97,11 @@ if [ "$count2" != "0" ]; then
   echo $line
 fi
 ```
+
+![Version](https://github.com/ogelbric/TanzuTools/blob/main/capabilities/issues.png)
+
+![Version](https://github.com/ogelbric/TanzuTools/blob/main/capabilities/run1.png)
+
+![Version](https://github.com/ogelbric/TanzuTools/blob/main/capabilities/run2.png)
+
+![Version](https://github.com/ogelbric/TanzuTools/blob/main/capabilities/run3.png)

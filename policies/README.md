@@ -1,4 +1,4 @@
-# Policies
+# Policies to allow either root containers or containers with user names vs user ID(s) to run
 
 ## Set pod-security.kubernetes.io/enforce to privileged for namespaces with a spaces.tanzu.vmware.com/name label:
 ```

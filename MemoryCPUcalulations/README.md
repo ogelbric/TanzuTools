@@ -1,7 +1,8 @@
 # Calulate Memory and CPU (Limis vs Requests) 
 
+getcpuandmemeory.sh
+
 ```
-[root@orfdns ~]# cat ./getcpuandmemeory.sh
 #!/bin/bash
 
 # which namespaces to get metrics from

@@ -3,6 +3,9 @@
 ## packageversionanalyser.sh
 
 ### Run Options
+```
+./packageversionanalyser.sh
+```
 
 ```
 #!/bin/bash

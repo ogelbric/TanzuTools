@@ -1,6 +1,14 @@
 # Calulate Memory and CPU (Limis vs Requests) 
 
-getcpuandmemeory.sh
+## getcpuandmemeory.sh
+
+### Run options
+
+```
+./getcpuandmemeory.sh -requests
+./getcpuandmemeory.sh -limits
+ ```
+
 
 ```
 #!/bin/bash

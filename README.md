@@ -5,5 +5,5 @@
 * Look at Tanzu Space capabilities and Cluster group capabilities
 * Root Containers
 * Package version analyser
-* Tanzu Plugin Analysis.sh
+* Tanzu Plugin Analysis
 ```
